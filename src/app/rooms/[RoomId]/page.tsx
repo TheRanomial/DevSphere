@@ -5,7 +5,7 @@ import { GithubIcon } from "lucide-react";
 import Link from "next/link";
 import { unstable_noStore } from "next/cache";
 import { DevFinderVideo } from "./videoPlayer";
-import App from "./chat";
+
 
 interface Params {
   RoomId: string;

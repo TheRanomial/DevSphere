@@ -4,7 +4,7 @@ import SearchBar from "./search-bar";
 import { getRooms } from "@/data-access/Room";
 import Roomcard from "./roomcard";
 import Image from "next/image";
-import App from "../rooms/[RoomId]/chat";
+
 
 
 interface Params {
