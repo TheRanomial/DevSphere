@@ -4,6 +4,7 @@ import { JWT } from "next-auth/jwt";
 import { AuthOptions, DefaultSession, getServerSession } from "next-auth";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import { Adapter } from "next-auth/adapters";
+import { signIn } from "next-auth/react";
 
 declare module "next-auth" {
   interface Session {
@@ -56,6 +57,9 @@ export const authConfig = {
       return session;
     },
   },
+  pages:{
+    signIn:"/signin"
+  }
 } satisfies AuthOptions;
 
 export function getSession() {

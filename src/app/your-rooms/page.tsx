@@ -26,13 +26,6 @@ export default async function Page() {
 
       {rooms.length === 0 && (
         <div className="flex flex-col gap-4 justify-center items-center mt-24">
-          <Image
-            src="/no-data.svg"
-            width="200"
-            height="200"
-            alt="no data image"
-          />
-
           <h2 className="text-2xl">You have no rooms</h2>
 
           <Button asChild>
