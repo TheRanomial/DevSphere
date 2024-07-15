@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://postgres:mysecretpassword2@localhost:5432/postgres"
+  url      = "postgresql://postgres:yIwLrMnQDedYjPgGGrTjmLTTaIPVVHnT@viaduct.proxy.rlwy.net:46641/railway"
 }
 
 model Testing{
